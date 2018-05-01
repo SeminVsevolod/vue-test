@@ -172,6 +172,50 @@
 				 'data-*',
 				 'itemprop'
 				 ]
+			},
+			{
+				type: 'radio',
+				title: 'Для какого элемента dipslay: inline установлен по умолчанию?',
+				answers: [
+					'<span>',
+					'<p>',
+					'<h1>',
+					'<div>'
+				],
+				rightAns: '<span>'
+			},
+			{
+				type: 'radio',
+				title: 'Какое свойство не работает для блочных элементов?',
+				answers: [
+					'height',
+					'width',
+					'margin',
+					'vertical-align'
+				],
+				rightAns: 'vertical-align'
+			},
+			{
+				type: 'radio',
+				title: 'Чему равна высота строчно-блочного элемента при наличии height?',
+				answers: [
+					'высота содержимого плюс margin, border и padding',
+					'height плюс border и padding',
+					'height плюс margin, border и padding',
+					'высота содержимого плюс border и padding'
+				],
+				rightAns: 'height плюс margin, border и padding'
+			},
+			{
+				type: 'radio',
+				title: 'Какая будет ширина блока со следующим стилем: width: 200px; padding: 10px; border 2px solid black;',
+				answers: [
+					'200px',
+					'224px',
+					'220px',
+					'212px'
+				],
+				rightAns: '224px'
 			}
 		];
 	};
